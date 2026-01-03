@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class App {
     public static void main(String[] args) {
         System.out.println("Project Started");
-//        System.out.println("Starting Point");
+        System.out.println("Starting Point");
 
 //        Car car = new Car(new Engine());
 //        car.start();
