@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="
-        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="-->
+<!--        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">-->
 
-    <bean id="engine1" class="com.core.concepts.Engine" primary="true"></bean>
-    <bean id="engine2" class="com.core.concepts.Engine"></bean>
+<!--    <context:component-scan base-package="com.core.concepts"/>-->
 
-    <bean id="car" class="com.core.concepts.Car" lazy-init="true" autowire="constructor">
-        <!--        Setter Injection-->
-                <property name="engine" ref="engine1"/>
+<!--&lt;!&ndash;    <bean id="engine1" class="com.core.concepts.Engine" primary="true"></bean>&ndash;&gt;-->
+<!--&lt;!&ndash;    <bean id="engine2" class="com.core.concepts.Engine"></bean>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <bean id="car" class="com.core.concepts.Car" lazy-init="true" autowire="constructor">&ndash;&gt;-->
+<!--        &lt;!&ndash;        Setter Injection&ndash;&gt;-->
+<!--&lt;!&ndash;                <property name="engine" ref="engine1"/>&ndash;&gt;-->
 
 
-        <!--        Constructor Injection-->
-<!--        <constructor-arg index="0" ref="engine1"/>-->
+<!--        &lt;!&ndash;        Constructor Injection&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg index="0" ref="engine1"/>&ndash;&gt;-->
 
-<!--        Autowire Injection-->
-<!--        <constructor-arg index="1" value="5000"/>-->
-    </bean>
-</beans>
+<!--&lt;!&ndash;        Autowire Injection&ndash;&gt;-->
+<!--&lt;!&ndash;        <constructor-arg index="1" value="5000"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
+<!--</beans>-->
